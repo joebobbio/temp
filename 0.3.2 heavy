@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>05/05/2021 09:10:45</Date>
+	<Date>06/07/2021 14:13:36</Date>
 	<AppInfo>
-		<Version>2.1.0.7862</Version>
+		<Version>2.1.1.7917</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
 		<Host>Windows 10 Pro (21H2) x64 - Client 10.0.21364.1000 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (21H2) ARM64 - Client 10.0.21370.1 (en-GB)</Version>
-		<GUID>{A475B8F5-F9A0-6BCF-6270-079E06648E4D}</GUID>
+		<Version mode="offline">Windows 10 Professional (21H2) ARM64 - Client 10.0.21390.1 (en-US)</Version>
+		<GUID>{E453FEF6-9F08-CABC-A3ED-3A4DE809C725}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>hypervguest 'Hyper-V Guest'</c>
-		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
 		<c>langarabic 'Arabic'</c>
 		<c>langbulgarian 'Bulgarian'</c>
 		<c>langchineses 'Chinese Simplified'</c>
@@ -23,6 +21,7 @@
 		<c>langczech 'Czech'</c>
 		<c>langdanish 'Danish'</c>
 		<c>langdutch 'Dutch'</c>
+		<c>langenglishgb 'English (GB)'</c>
 		<c>langestonian 'Estonian'</c>
 		<c>langfinnish 'Finnish'</c>
 		<c>langfrench 'French'</c>
@@ -60,9 +59,6 @@
 		<c>Microsoft.DesktopAppInstaller 'DesktopAppInstaller'</c>
 		<c>Microsoft.GetHelp 'GetHelp'</c>
 		<c>Microsoft.Getstarted 'Tips (Get Started)'</c>
-		<c>Microsoft.HEIFImageExtension 'HEIFImageExtension'</c>
-		<c>Microsoft.MicrosoftEdge 'Microsoft Edge (Legacy)'</c>
-		<c>Microsoft.MicrosoftEdgeDevToolsClient 'EdgeDevToolsClient'</c>
 		<c>Microsoft.MicrosoftOfficeHub 'OfficeHub'</c>
 		<c>Microsoft.MicrosoftSolitaireCollection 'SolitaireCollection'</c>
 		<c>Microsoft.MicrosoftStickyNotes 'StickyNotes'</c>
@@ -75,58 +71,49 @@
 		<c>Microsoft.VP9VideoExtensions 'VP9VideoExtensions'</c>
 		<c>Microsoft.WebMediaExtensions 'WebMediaExtensions'</c>
 		<c>Microsoft.WebpImageExtension 'WebpImageExtension'</c>
-		<c>Microsoft.Windows.NarratorQuickStart 'NarratorQuickStart'</c>
-		<c>Microsoft.Windows.XGpuEjectDialog 'XGpuEjectDialog'</c>
 		<c>Microsoft.WindowsAlarms 'Alarms'</c>
+		<c>Microsoft.WindowsCamera 'Camera'</c>
 		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
 		<c>Microsoft.WindowsFeedbackHub 'FeedbackHub'</c>
 		<c>Microsoft.WindowsMaps 'Maps'</c>
 		<c>Microsoft.WindowsSoundRecorder 'SoundRecorder'</c>
 		<c>Microsoft.WindowsTerminal 'Terminal'</c>
-		<c>Microsoft.XboxGameOverlay 'XboxGameOverlay'</c>
-		<c>Microsoft.XboxGamingOverlay 'XboxGamingOverlay'</c>
-		<c>Microsoft.XboxSpeechToTextOverlay 'XboxSpeechToTextOverlay'</c>
 		<c>Microsoft.YourPhone 'YourPhone'</c>
 		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
 		<c>Microsoft.ZuneVideo 'ZuneVideo'</c>
-		<c>otherthemes 'Other Themes'</c>
-		<c>remoteassistance 'Remote Assistance'</c>
-		<c>securestartup 'BitLocker Drive Encryption'</c>
-		<c>Windows.PrintDialog 'PrintDialog'</c>
-		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="false">
 		<ComponentFeatures>
-			<Feature enabled="no">Discord</Feature>
-			<Feature enabled="no">FileSharing</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="no">Edge</Feature>
-			<Feature enabled="no">OfficeSupport</Feature>
-			<Feature enabled="no">Netflix</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
 			<Feature enabled="no">NetworkDiscovery</Feature>
-			<Feature enabled="no">NvidiaSetup</Feature>
-			<Feature enabled="no">OOBE</Feature>
-			<Feature enabled="no">Printing</Feature>
-			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
 			<Feature enabled="no">SamsungSwitch</Feature>
-			<Feature enabled="no">ServicingStack</Feature>
-			<Feature enabled="no">ShellSearchSupport</Feature>
-			<Feature enabled="no">Spotify</Feature>
-			<Feature enabled="no">DefaultFonts</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
 			<Feature enabled="no">SafeMode</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
-			<Feature enabled="no">USBModem</Feature>
-			<Feature enabled="no">USB</Feature>
-			<Feature enabled="no">VideoPlayback</Feature>
+			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
 			<Feature enabled="no">VPN</Feature>
 			<Feature enabled="no">VisualStudio</Feature>
-			<Feature enabled="no">ActivationKMS</Feature>
-			<Feature enabled="no">Activation</Feature>
-			<Feature enabled="no">AppxSupport</Feature>
-			<Feature enabled="no">WLAN</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">WLAN</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
-			<Machine enabled="no">HostMachine</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
 			<Machine enabled="no">Hyper-V VM</Machine>
 			<Machine enabled="no">Parallels VM</Machine>
 			<Machine enabled="no">Virtual Box VM</Machine>
@@ -135,31 +122,31 @@
 	</Compatibility>
 	<Features>
 		<Feature name="DirectPlay">true</Feature>
+		<Feature name="Internet-Explorer-Optional-arm64">false</Feature>
+		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
 		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="MediaPlayback">false</Feature>
+		<Feature name="Printing-PrintToPDFServices-Features">false</Feature>
+		<Feature name="Printing-XPSServices-Features">false</Feature>
+		<Feature name="Printing-Foundation-Features">false</Feature>
+		<Feature name="MSRDC-Infrastructure">false</Feature>
 		<Feature name="WindowsMediaPlayer">false</Feature>
 		<Feature name="SearchEngine-Client-Package">false</Feature>
+		<Feature name="WorkFolders-Client">false</Feature>
 	</Features>
-	<AddPackages></AddPackages>
-	<Drivers showHidden="false">
-		<AddDrivers></AddDrivers>
-	</Drivers>
+	<Packages></Packages>
+	<Drivers showHidden="false"></Drivers>
 	<Unattended mode="1">
 		<OEMSetupComplete>false</OEMSetupComplete>
-		<AnswerFileLocationPanther>true</AnswerFileLocationPanther>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
 		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
 		<SaveBothArch>false</SaveBothArch>
 		<EditionPrompt>false</EditionPrompt>
 		<settings pass="oobeSystem">
-			<component name="Microsoft-Windows-International-Core">
-				<InputLocale>007f:00020409</InputLocale>
-				<SystemLocale>en</SystemLocale>
-				<UserLocale>en</UserLocale>
-			</component>
 			<component name="Microsoft-Windows-Shell-Setup">
 				<OEMInformation>
 					<Manufacturer>Sony UK</Manufacturer>
-					<Model>Raspberry pi 4B</Model>
+					<Model>Raspberry PI 4B</Model>
 					<SupportURL>https://discord.com/invite/jQCpfVK</SupportURL>
 				</OEMInformation>
 				<OOBE>
@@ -173,7 +160,7 @@
 		</settings>
 		<settings pass="specialize">
 			<component name="Microsoft-Windows-Shell-Setup">
-				<ComputerName>Raspberrypi</ComputerName>
+				<ComputerName>RaspberryPi</ComputerName>
 			</component>
 		</settings>
 		<settings pass="windowsPE">
@@ -205,13 +192,19 @@
 			<TweakGroup name="AppCompat">
 				<Tweak name="AppCompat\DisableInventory">1</Tweak>
 				<Tweak name="AppCompat\DisablePCA">1</Tweak>
-				<Tweak name=".NETFramework\OnlyUseLatestCLR">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="AutoLogger">
+				<Tweak name="SpoolerLogger\Start">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\AutoReboot">0</Tweak>
 				<Tweak name="CrashControl\LogEvent">0</Tweak>
 				<Tweak name="CrashControl\CrashDumpEnabled">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Accent\AccentColorMenu">16756605</Tweak>
+				<Tweak name="Accent\StartColorMenu">16756605</Tweak>
+				<Tweak name="DWM\AccentColorInactive">16756605</Tweak>
 				<Tweak name="Explorer\NoPinningStoreToTaskbar">1</Tweak>
 				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
 				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
@@ -220,24 +213,20 @@
 				<Tweak name="Start\HideRecentJumplists">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
-				<Tweak name="Explorer\EnableAutoTray">1</Tweak>
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
 				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="Explorer\EnableLegacyBalloonNotifications">0</Tweak>
 				<Tweak name="Explorer\NoThumbnailCache">1</Tweak>
 				<Tweak name="Explorer\NoCDBurning">1</Tweak>
 				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
+				<Tweak name="Explorer\DisableThumbnails">1</Tweak>
+				<Tweak name="Explorer\DisableThumbnailsOnNetworkFolders">1</Tweak>
 				<Tweak name="Explorer\DisableEdgeDesktopShortcutCreation">1</Tweak>
-				<Tweak name="Explorer\NoRecentDocsHistory">1</Tweak>
 				<Tweak name="Advanced\LaunchTo">1</Tweak>
-				<Tweak name="Explorer\ConfirmFileDelete">0</Tweak>
 				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
 				<Tweak name="People\PeopleBand">0</Tweak>
 				<Tweak name="Advanced\ShowSyncProviderNotifications">0</Tweak>
 				<Tweak name="Advanced\ShowTaskViewButton">0</Tweak>
-				<Tweak name="Advanced\HideDrivesWithNoMedia">0</Tweak>
-				<Tweak name="Advanced\HideFileExt">0</Tweak>
-				<Tweak name="Advanced\Hidden">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="PowerAndShutdown">
 				<Tweak name="Power\HiberbootEnabled">0</Tweak>
@@ -277,8 +266,6 @@
 				<Tweak name="Search\HistoryViewEnabled">0</Tweak>
 				<Tweak name="Search\DeviceHistoryEnabled">0</Tweak>
 				<Tweak name="Advanced\ShowCortanaButton">0</Tweak>
-				<Tweak name="System\DontDisplayLastUserName">0</Tweak>
-				<Tweak name="System\DontDisplayLockedUserId">1</Tweak>
 				<Tweak name="Rules\NumberOfSIUFInPeriod">0</Tweak>
 				<Tweak name="SmartGlass\UserAuthPolicy">0</Tweak>
 				<Tweak name="SmartGlass\BluetoothPolicy">0</Tweak>
@@ -309,27 +296,11 @@
 				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
 				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
 				<Tweak name="Explorer\SmartScreenEnabled">Off</Tweak>
-				<Tweak name="ContentDeliveryManager\RotatingLockScreenEnabled">0</Tweak>
-			</TweakGroup>
-			<TweakGroup name="StartTweaks">
-				<Tweak name="Start\HideAppList">1</Tweak>
-				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
-				<Tweak name="Start\HideRecentlyAddedApps">1</Tweak>
-				<Tweak name="Start\AllowPinnedFolderDocuments">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderDownloads">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderFileExplorer">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderHomeGroup">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderMusic">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderNetwork">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderPersonalFolder">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderPictures">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderSettings">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderVideos">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="System">
 				<Tweak name="Winlogon\RestartApps">0</Tweak>
 				<Tweak name="Personalization\NoLockScreen">1</Tweak>
-				<Tweak name="System\EnableFirstLogonAnimation">1</Tweak>
+				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
 				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
 				<Tweak name="Memory Management\PagingFiles1">-:\pagefile.sys</Tweak>
 				<Tweak name="RDP-Tcp\UserAuthentication">0</Tweak>
@@ -345,8 +316,6 @@
 				<Tweak name="System\EnableVirtualization">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Windows">
-				<Tweak name="Windows\DisableATMFD">1</Tweak>
-				<Tweak name="Activation\Manual">1</Tweak>
 				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
 				<Tweak name="StoragePolicy\01">0</Tweak>
 				<Tweak name="StoragePolicy\512">0</Tweak>
@@ -364,37 +333,25 @@
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
-				<Tweak name="DusmSvc\DusmSvc">4</Tweak>
 				<Tweak name="DPS\DPS">4</Tweak>
 				<Tweak name="WdiServiceHost\WdiServiceHost">4</Tweak>
 				<Tweak name="WdiSystemHost\WdiSystemHost">4</Tweak>
 				<Tweak name="diagsvc\diagsvc">4</Tweak>
-				<Tweak name="MapsBroker\MapsBroker">4</Tweak>
-				<Tweak name="diagnosticshub.standardcollector.service\diagnosticshub.standardcollector.service">4</Tweak>
 				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
 				<Tweak name="edgeupdatem\edgeupdatem">4</Tweak>
-				<Tweak name="NgcSvc\NgcSvc">4</Tweak>
-				<Tweak name="NgcCtnrSvc\NgcCtnrSvc">4</Tweak>
-				<Tweak name="swprv\swprv">4</Tweak>
-				<Tweak name="WpcMonSvc\WpcMonSvc">4</Tweak>
-				<Tweak name="SEMgrSvc\SEMgrSvc">4</Tweak>
-				<Tweak name="PhoneSvc\PhoneSvc">4</Tweak>
 				<Tweak name="Spooler\Spooler">4</Tweak>
 				<Tweak name="PrintWorkflowUserSvc\PrintWorkflowUserSvc">4</Tweak>
 				<Tweak name="wercplsupport\wercplsupport">4</Tweak>
 				<Tweak name="PcaSvc\PcaSvc">4</Tweak>
 				<Tweak name="TroubleshootingSvc\TroubleshootingSvc">4</Tweak>
 				<Tweak name="wscsvc\wscsvc">4</Tweak>
-				<Tweak name="SCardSvr\SCardSvr">4</Tweak>
-				<Tweak name="ScDeviceEnum\ScDeviceEnum">4</Tweak>
-				<Tweak name="SCPolicySvc\SCPolicySvc">4</Tweak>
+				<Tweak name="SysMain\SysMain">4</Tweak>
 				<Tweak name="UsoSvc\UsoSvc">4</Tweak>
 				<Tweak name="SDRSVC\SDRSVC">4</Tweak>
-				<Tweak name="WerSvc\WerSvc">4</Tweak>
-				<Tweak name="TrustedInstaller\TrustedInstaller">4</Tweak>
 				<Tweak name="WSearch\WSearch">4</Tweak>
 				<Tweak name="wuauserv\wuauserv">4</Tweak>
 				<Tweak name="WaaSMedicSvc\WaaSMedicSvc">4</Tweak>
+				<Tweak name="workfolderssvc\workfolderssvc">4</Tweak>
 			</TweakGroup>
 		</Services>
 		<ExtraServices></ExtraServices>
@@ -405,7 +362,7 @@
 			<Task>imageFormatWim</Task>
 			<Task>imageOptionsDontBackupPresetLog</Task>
 		</ImageTasks>
-		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoFile>D:\UserData\Desktop\NTLite.iso</AutoIsoFile>
 		<AutoIsoLabel>NTLite</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 		<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
